@@ -296,6 +296,7 @@ int Menu::menuChoice(Game *pGame, int charCount, int charNum, Vampire *vampire, 
             break;
         }
     }
+    return 0;
 }
 
 //Validates user integer input for a variety of functinos in Menu. Takes an integer parameter to

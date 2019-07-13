@@ -312,6 +312,7 @@ Character *Queue::getEnd()
             return temp;
         }
     }
+    return getHead();
 }
 
 //Rotates queue of Character objects if more than 1 Character.
